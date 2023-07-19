@@ -24,7 +24,7 @@ export default [
     input: 'src/index.ts',
     output: {
       name: 'IMask',
-      file: `dist/imask${min ? '.min' : ''}.js`,
+      file: `dist/imask${min ? '.min' : ''}.cjs`,
       format: 'umd',
       sourcemap: true,
       exports: 'named',
